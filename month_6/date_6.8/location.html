@@ -1,0 +1,130 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>实验室座位安排图</title>
+	<style>
+		body{
+			text-align:center;
+		}
+		.main{
+			position:relative;
+			width:80%;
+			height:600px;
+			margin:10 auto;
+			text-align:center;
+			border:1px solid #000;
+		}
+		.left{
+			width:200px;
+			height:450px;
+			border:1px solid #000;
+			margin-top:75px;
+			margin-left:20px;
+		}
+		table{
+			border:1px solid #000;
+		}
+		.left tr{
+			height:147px;
+			border-bottom:1px solid #000;
+		}
+		.left td{
+			width:150px;
+			text-align:center;
+		}
+		.top{
+			position:absolute;
+			width:560px;
+			height:150px;
+			top:10%;
+			right:23%;
+			background:red;
+		}
+		.top tr{
+			height:71px;
+		}
+		.top td{
+			width:290px;
+		}
+		.middle{
+			position:absolute;
+			width:400px;
+			height:100px;
+			background:green;
+			top:52%;
+			left:32%;
+		}
+		.middle tr{
+			height:50px;
+		}
+		.middle td{
+			width:200px;
+		}
+		.right{
+			position:absolute;
+			width:240px;
+			height:300px;
+			background:blue;
+			top:47%;
+			right:5%;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>实验室座位安排图</h1>
+	<div class="main">
+		<div class="left">
+			<table>
+				<tr>
+					<td>董浩(男)</td>
+					<td>孙德众</td>
+				</tr>
+				<tr>
+					<td>韩智建</td>
+					<td>空</td>
+				</tr>
+				<tr>
+					<td>王晓航</td>
+					<td>董浩(女)</td>
+				</tr>
+			</table>		
+		</div>
+		
+		<div class="top">
+			<table>
+				<tr>
+					<td>卢安宁</td>
+					<td>马建伟</td>
+					<td>李登进</td>
+				</tr>
+				<tr>
+					<td>空</td>
+					<td>空</td>
+					<td>裴忠瑞</td>
+				</tr>
+			</table>
+		</div> 
+		
+		<div class="middle">
+			<table border=1>
+				<tr>
+					<td>空</td>
+					<td rowspan=2>空空</td>
+				</tr>
+				<tr>
+					<td>空空空</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="right">
+		
+		</div>
+	</div>
+	
+
+</body>
+
+</html>
