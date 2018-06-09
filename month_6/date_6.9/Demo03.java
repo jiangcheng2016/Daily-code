@@ -24,5 +24,6 @@ public class Demo03 {
 		}else {
 			System.out.println("Sorry!");
 		}
+		System.out.println("test");
 	}
 }
