@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp" >
+
+    <!-- 文本控件 -->
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textColor="#ff0000"
+        android:textSize="30sp" />
+    <!--
+         按钮控件 
+		Ctrl+1 添加id到R文件
+    -->
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/click" />
+    <!-- 多选框 -->
+
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scoccer" />
+    <!-- 单选按钮 -->
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/man" />
+
+        <RadioButton
+            android:id="@+id/rbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/woman" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_name" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@drawable/logo1"
+        android:src="@drawable/logo1" />
+
+</LinearLayout>
