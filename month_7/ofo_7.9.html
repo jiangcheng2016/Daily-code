@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/www.css"/>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#header{
+				width: 100%;
+				height: 96px;
+				/*background-color: grey;*/
+				/*text-align: center;*/
+				/*line-height: 96px; 行高，与容器同高，会让内容垂直居中*/
+				position: relative;
+			}
+			
+			#banner{
+				width: 100%;
+				height: 600px;
+				/*background-color: lightcoral;*/
+				text-align: center;
+				line-height: 600px;/* 行高，与容器同高，会让内容垂直居中*/
+			}
+			#logo{
+				position:absolute;
+				top: 33px;
+				left: 888px;
+			}
+			#video{
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: -9; 
+			}
+			#line{
+				clear: both;
+				width: 95%;
+				height: 1px;
+				border: none;
+				background-color: #fff;
+				margin: 0 auto;
+				opacity:0.3 ;
+			}
+			#fb{
+				position: absolute;
+				top: 150px;
+				left: 330px;
+				z-index: -5;
+			}
+			#c{
+				position: absolute;
+				top: 160px;
+				left: 930px;
+				z-index: -5;
+			}
+			#aa{
+				width:5px;
+				height: 5px;
+			}
+			#lantu{
+				clear: both;
+			}
+			 #pc_science{
+			 	width: 500px;
+				margin: 400px auto;
+
+			}
+			/*#left{
+				width: 30%;
+				height: 200px;
+				background-color: orange;
+				float: left;
+				margin-top: 0;
+				/*z-index: -5;*/
+			}
+			/*#center{
+				width: 30%;
+				height: 200px;
+				background-color: blue;
+				float: left;
+				/*z-index: -5;*/
+			}/**/
+			/*#right{
+				width: 30%;
+				height: 200px;
+				background-color: red;
+				float: left;
+				/*z-index: -5;*/
+			}/*/
+			
+			
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<img id="logo" src="img/logo_white.svg" alt="logo"/>
+			<!-- </ul> 		多了一个</ul> 导致div 找不到配对	-->
+			<ul id="menu">
+				<li>首页</li>
+				<li>新闻</li>
+				<li>关于</li>
+				<li>商业合作</li>
+			</ul>
+		</div>	<!-- header -->
+
+		<hr id="line"/>
+
+		<div id="banner">
+
+			<div id="fb">
+				<img src="img/fb75bedcf30882508bb5e0771bc2ccfa_feed_title_round_1.svg"/>
+			</div>
+
+			<img src="css/feed_title.svg"/>
+
+			<div id="c">
+				<img src="img/74c32c21d522e7b157a49afdf5c7c710_feed_title_round_2.svg"/>
+			</div>
+			
+			<div id="">
+				<!--<span style="color: white;font-size: 18px;">-->
+					<!--我们已服务于全球21个国家，超过250座城市，2亿用户-->
+				<!--</span>-->
+			</div>
+			<!--<div id="aa">-->
+			<!--<div id="left">-->
+			
+				
+			<!--</div>-->
+			<!--<div id="center">-->
+			<!--</div>-->
+			<!--<div id="right">-->
+				
+			<!--</div>-->
+			<!--<img src="img/cea723f7c3a941c8aecf0f411f85987d_pc-science.png"/>-->
+		
+			
+		</div>
+
+		<div id="pc_science">
+				<img src="img/pc-science.png"width="500" height="500"/>
+		</div>
+		
+		<video id="video" autoplay="autoplay" loop="loop">
+			<source src="img/new.mp4" type="video/mp4"></source>
+		</video>
+
+	</body>
+</html>
